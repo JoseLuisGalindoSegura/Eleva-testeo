@@ -9,46 +9,34 @@
     bottom: 0;
     right: 15px;
     transform: translateY(-50%);
-
-    &.buttonTooltip--transformTraslate100 {
+    &.buttonTooltip--transformTraslate100{
         transform: translateY(-100%);
     }
-
-    span {
+    span{
         font-size: $font-p + 2 !important;
     }
-
-    &:active~.tooltip {
+    &:hover~.tooltip{
         opacity: 1 !important;
     }
-
-    &:focus~.tooltip {
-        opacity: 1 !important;
-    }
-
-    &.buttonTooltip--textLong {
+    &.buttonTooltip--textLong{
         transform: translate(-44%, 22%);
         right: 0;
     }
-
-    &.buttonTooltip--range {
+    &.buttonTooltip--range{
         transform: translate(16px, 45px);
 
     }
-
-    &.buttonTooltip--textLongTwo {
+    &.buttonTooltip--textLongTwo{
         transform: translate(-44%, 68%);
         right: 0;
     }
-
     &.buttonTooltip--small {
         width: 6px;
         transform: translate(14px, 2px);
         position: relative;
     }
-
     //Posicionamiento
-    &--textPosition {
+    &--textPosition{
         position: relative;
         top: 2px;
         bottom: 0;
@@ -59,7 +47,7 @@
 }
 
 //Tooltip General
-.tooltip {
+.tooltip{
     display: inline-block;
     width: 80%;
     max-width: 350px;
@@ -68,7 +56,7 @@
     padding: 15px;
     z-index: 9;
     text-align: justify;
-
+    
     position: absolute;
     top: 50%;
     left: 0;
@@ -80,8 +68,7 @@
     transition-duration: .2s;
 
     opacity: 0;
-
-    //pointer-events: none;
+    pointer-events: none;
     p {
         font-size: $font-p - 2;
         font-family: $roboto;
@@ -89,25 +76,21 @@
         color: $negro-00;
         font-weight: 400;
     }
-
     //Pendiente para borrar - hay que testear
-    &--top {
+    &--top{
         transform: translateY(12%);
     }
-
-    &--moreTop {
+    &--moreTop{
         transform: translateY(-115%);
     }
-
-    &--fullWidth {
+    &--fullWidth{
         width: 100%;
     }
-
-    &.tooltip--rangeSlider {
+    &.tooltip--rangeSlider{
         width: 282px;
-        position: relative;
-        left: 0;
-        transform: translate(-86%, -41%);
-        z-index: 27;
+    position: relative;
+    left: 0;
+    transform: translate(-86%,-41%);
+    z-index: 27;
     }
 }
