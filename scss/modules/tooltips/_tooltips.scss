@@ -18,10 +18,6 @@
         font-size: $font-p + 2 !important;
     }
 
-    &:hover~.tooltip {
-        opacity: 1 !important;
-    }
-
     &:active~.tooltip {
         opacity: 1 !important;
     }

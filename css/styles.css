@@ -230,7 +230,6 @@ en algunos casos dentro de los mismos */
 .buttonTooltip { display: inline-block; width: 16px; height: 16px; position: absolute; top: 50%; bottom: 0; right: 15px; transform: translateY(-50%); }
 .buttonTooltip.buttonTooltip--transformTraslate100 { transform: translateY(-100%); }
 .buttonTooltip span { font-size: 16px !important; }
-.buttonTooltip:hover ~ .tooltip { opacity: 1 !important; }
 .buttonTooltip:active ~ .tooltip { opacity: 1 !important; }
 .buttonTooltip:focus ~ .tooltip { opacity: 1 !important; }
 .buttonTooltip.buttonTooltip--textLong { transform: translate(-44%, 22%); right: 0; }
