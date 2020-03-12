@@ -18,6 +18,9 @@
     &:hover~.tooltip{
         opacity: 1 !important;
     }
+    &:focus~.tooltip{
+        opacity: 1 !important;
+    }
     &.buttonTooltip--textLong{
         transform: translate(-44%, 22%);
         right: 0;
