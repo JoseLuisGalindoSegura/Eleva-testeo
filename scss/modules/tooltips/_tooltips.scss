@@ -15,7 +15,13 @@
     span{
         font-size: $font-p + 2 !important;
     }
+    &:focus~.tooltip{
+        opacity: 1 !important;
+    }
     &:hover~.tooltip{
+        opacity: 1 !important;
+    }
+    &:active~.tooltip{
         opacity: 1 !important;
     }
     &.buttonTooltip--textLong{
