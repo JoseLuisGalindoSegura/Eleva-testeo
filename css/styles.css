@@ -231,6 +231,7 @@ en algunos casos dentro de los mismos */
 .buttonTooltip.buttonTooltip--transformTraslate100 { transform: translateY(-100%); }
 .buttonTooltip span { font-size: 16px !important; }
 .buttonTooltip:hover ~ .tooltip { opacity: 1 !important; }
+.buttonTooltip:focus ~ .tooltip { opacity: 1 !important; }
 .buttonTooltip.buttonTooltip--textLong { transform: translate(-44%, 22%); right: 0; }
 .buttonTooltip.buttonTooltip--range { transform: translate(16px, 45px); }
 .buttonTooltip.buttonTooltip--textLongTwo { transform: translate(-44%, 68%); right: 0; }
